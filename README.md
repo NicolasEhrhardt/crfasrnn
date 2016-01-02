@@ -130,6 +130,9 @@ To use your own images, just replace "input.jpg" in the crfrnn_demo.m file.
 
 You can also find part of our model in [MatConvNet](http://www.vlfeat.org/matconvnet/pretrained/).
 
+# GPU use
+GPU mode is enable for the Meanfield layers. Please initialize your device before creating your network or it
+might fail otherwise.
 
 # LICENSE
 CRF-RNN feature in Caffe is implemented for the paper:
